@@ -39,6 +39,7 @@ dependencies {
     "compile"("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     "compile"("org.jetbrains.kotlin:kotlin-reflect")
     "compile"("org.springframework.boot:spring-boot-starter-webflux")
+    "compile"("com.fasterxml.jackson.module:jackson-module-kotlin")
     "expectedBy"(project(":common"))
 }
 
